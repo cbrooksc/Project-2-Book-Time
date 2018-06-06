@@ -46,9 +46,9 @@ h2{
 /*form related*/
 
 .form-group{
-
 font-family: 'Indie Flower', cursive;
 position:absolute;
+float:center;
 
 }
 
@@ -62,11 +62,10 @@ position:absolute;
 
 
 .newAccount{
-  float: left;
+float: left;  
   }
   
   .currentAccount{
-  float: right;
-  margin-right: 40%;
-  }
-  
+    float: right;
+
+       }

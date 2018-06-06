@@ -29,25 +29,7 @@ h2{
     color: white;
 }
 
-
-/*carousel related*/
-
-.carousel-inner{
-  background: rgba(128, 128, 128, 0.764)
-}
-
-.carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
-}
-
-.currentAccount{
-float: right;
-margin-right: 40%;
-}
-
-footer {
+.footer {
   text-align: center;
   width: 100%;
   position: fixed;
@@ -73,14 +55,39 @@ footer {
     justify-content: center;
     align-items: center;
   }
+/*carousel related*/
+
+.carousel-inner{
+  background: rgba(128, 128, 128, 0.764)
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-inner > .item > img{
+  margin: auto;
+ 
+  }
+
+* { 
+  box-sizing: border-box;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
 
 /*form related*/
 
 .form-group{
-
   font-family: 'Indie Flower', cursive;
   position:absolute;
-  
   }
   
   .control-label{
@@ -90,13 +97,12 @@ footer {
   .checkbox{
     color: white;
   }
-  
-  
-  .newAccount{
-    float: left;
-    }
     
     .currentAccount{
-    float: right;
-    
-    }
+      float: right;
+      padding-left: 28px;
+      padding-right: 28px;
+display: block;
+margin-top:0px;
+width: 266px;
+       }
