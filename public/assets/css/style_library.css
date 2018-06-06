@@ -1,3 +1,17 @@
+.carousel-inner > .item > img{
+    margin:auto;
+   
+    }
+
+* { 
+    box-sizing: border-box;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
 * { 
     box-sizing: border-box;
 }
@@ -14,18 +28,20 @@ navBar{
 position: absolute;
 }
 
+  
 
   h1{
     font-family: 'Cabin Sketch', cursive;
     color: white;
     line-height: 65px;
-    margin-left: 135px;
+    text-align: center
 }
 
 h2{
   font-family: 'Nanum Pen Script', cursive;
   text-align: center;
-    color: white;
+  color: white;
+
 }
 
 
@@ -58,13 +74,6 @@ margin-right: 40%;
 
 
 /*form related*/
-
-
-.newAccount{
-  float: left;
-  }
-
-  
 .form-group{
 font-family: 'Indie Flower', cursive;
 position:absolute;
@@ -79,7 +88,8 @@ position:absolute;
 }
 
 
-/* ---- grid ---- */
+
+/*ALL MASONRY UNTIL NEXT PSUEDOCODE*/
 
 .grid {
     background: rgb(37, 28, 28);
@@ -87,40 +97,40 @@ position:absolute;
     margin-right: 3%;
     max-width: 90%;
     margin-top: 2%;
+    margin-bottom: 6%;
     
 
   }
   
-  /* clear fix */
   .grid:after {
     content: '';
     display: block;
     clear: both;
   }
   
-  /* ---- .grid-item ---- */
   
 
   
   .grid-item {
-    float: left;
+    float: center;
     margin: 2px;
-    width: 93%;
+    width: 91%;
     background: bisque;
     border: solid 2px black;
     margin-right: 5px;
+    max-width: 350px;
 
   }
 
   .grid-item--med{
-      width: 95%;
+      width: 94%;
       background: bisque;
       margin: 7px;
 
   }
 
   .grid-item--lg{
-    width: 97%;
+    width: 96%;
     background: bisque;
     margin: 7px;
 
@@ -136,41 +146,98 @@ position:absolute;
   .grid-item img {
     display: inline-block;
     max-width: 100%;
-
-  }
-
-
-/*masonry related*/
-
     max-height: 100%;
-    object-fit: fill 
+    object-fit: fill;
+    align-content: center
+     
 }
+.grid-alpha{
+  display: none;
+  position: fixed;
+  background-color: rgba(244, 243, 244, 0.963);
+  width: 60%;
+  height: 60%;
+  top: 14%;
+  left: 17.5%;
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 1024px) {
     .grid {
-      column-count: 5;
+      column-count: 6;
     }
+
+  img.img-circle{
+    position: absolute;
+    width: 140px; 
+    height: 140px;
+    z-index: -1;
+    bottom: 65%;
+    left: 30px;
   }
+}
   
-  /* Masonry on medium-sized screens */
-  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
     .grid {
-      column-count: 4;
+      column-count: 3;
     }
+
+    img.img-circle{
+      height: 200%;
+      width: 72%;
+      position: absolute;
+      z-index: -1;
+      bottom: 65%;
+    } 
   }
   
-  /* Masonry on small screens */
+
   @media only screen and (max-width: 767px) and (min-width: 540px) {
     .grid {
-      column-count: 4;
+      column-count: 2;
+      margin-top: 20px
+    }
+
+    .grid-alpha{
+      position: fixed;
+      top: 28%;
+      left: 12%;
+      height: 45%;
+      width: 72%;
     }
   }
 
 
+  @media only screen and (max-width: 767px){
+    .grid-item{
+      max-width: 60%;
+      margin-left: 20%;
+      }
 
-  h1{
-    text-align: center;
+    img.img-circle{
+      position: absolute;
+      bottom: 95%;
+      left: 30%;
+      z-index: -1;
+      height: 80px;
+      width: 80px;
+    }
     
-}
+    .grid-alpha{
+      position: fixed;
+      top: 28%;
+      left: 5%;
+      height: 40%;
+      width: 85%;
+    }
+  
+  }
+
+  
+/*--------------End of Masonry---------------*/
+
 
 .form-group{
 text-align: right;
@@ -196,3 +263,5 @@ display: block;
     align-items: center;
   }
 
+
+  
