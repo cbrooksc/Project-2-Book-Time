@@ -1,0 +1,108 @@
+/*style page for the home.html*/
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("../images/animatedBookcases.jpg");
+    background-attachment: fixed;
+}
+
+
+navBar{
+position: absolute;
+}
+
+
+.title{
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    line-height: 65px;
+    margin-left: 135px;
+}
+
+h2{
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+    color: white;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 35px;
+  padding: 50px;
+  clear: both;
+}
+
+  h1{
+    text-align: center;
+    
+}
+
+
+  #navContainer{
+     max-height: 150px;
+  }
+
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/*carousel related*/
+
+.carousel-inner{
+  background: rgba(128, 128, 128, 0.764)
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-inner > .item > img{
+  margin: auto;
+ 
+  }
+
+* { 
+  box-sizing: border-box;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+
+/*form related*/
+
+.form-group{
+  font-family: 'Indie Flower', cursive;
+  position:absolute;
+  }
+  
+  .control-label{
+    color: white;
+  }
+  
+  .checkbox{
+    color: white;
+  }
+    
+    .currentAccount{
+      float: right;
+      padding-left: 28px;
+      padding-right: 28px;
+display: block;
+margin-top:0px;
+width: 266px;
+       }
