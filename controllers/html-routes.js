@@ -17,13 +17,9 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
   });
 
-  app.get("/library", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/library.html"));
-  });
 
   // bookTime route loads 
   app.get("/bookTime", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/.html"));
   });
-
 };
