@@ -1,4 +1,12 @@
 # Logs
+
+node_modules
+.env
+
+
+config/config.json
+
+
 logs
 *.log
 npm-debug.log*
