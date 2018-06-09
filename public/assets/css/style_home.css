@@ -24,9 +24,8 @@ position: absolute;
 }
 
 h2{
-  font-family: 'Nanum Pen Script', cursive;
-  text-align: center;
-    color: white;
+  color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
+   font-weight: lighter; text-align: center
 }
 
 .footer {
@@ -39,48 +38,50 @@ h2{
   clear: both;
 }
 
-  h1{
-    text-align: center;
-    
-}
+  h1.subHeader{
+    color: #ffffff; font-family: 'Serif', cursive; font-size: 30px; 
+    font-weight: bold; text-align: center; 
 
+    margin-bottom: 40px;
+    margin-top: -100px;
+ }
 
   #navContainer{
      max-height: 150px;
   }
 
 
-.container-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
 /*carousel related*/
 
 .carousel-inner{
-  background: rgba(128, 128, 128, 0.764)
+  background: rgb(37, 28, 28);
+    max-width: 150%;
 }
+
 
 .carousel-caption {
     position: relative;
-    left: auto;
-    right: auto;
+    
 }
 
 .carousel-inner > .item > img{
-  margin: auto;
- 
+ text-align: center;
+  border: black solid 5px;
+
+
   }
 
 * { 
   box-sizing: border-box;
 }
 
-.carousel-caption {
-  position: relative;
-  left: auto;
-  right: auto;
+.item{
+  margin: 10%;
+ 
 }
+
+
 
 
 /*form related*/
@@ -97,12 +98,35 @@ h2{
   .checkbox{
     color: white;
   }
-    
-    .currentAccount{
-      float: right;
-      padding-left: 28px;
-      padding-right: 28px;
-display: block;
-margin-top:0px;
-width: 266px;
-       }
+
+  
+
+  .headerMain{
+    color: #ffffff; font-family: 'Lobster', cursive; font-size: 56px; 
+    font-weight: bolder; text-align: center; vertical-align: bottom
+
+  }
+
+  h3.subTitle{
+    font-size: 18px;
+    font-family:  Helvetica;
+    color: white;
+    vertical-align: bottom;
+    vertical-align: text-bottom;
+
+      }
+  
+      .subtitle1 {
+        position: relative;
+        top: 30px;
+        right: 90px;
+    }
+    .img{
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .icon{
+      background-color: #ffffff;
+      margin-top: 20px;
+    }

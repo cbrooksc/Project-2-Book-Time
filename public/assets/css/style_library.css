@@ -24,17 +24,13 @@ body {
 
 
 
-navBar{
-position: absolute;
-}
+
 
   
 
   h1{
-    font-family: 'Cabin Sketch', cursive;
-    color: white;
-    line-height: 65px;
-    text-align: center
+    color: #ffffff; font-family: 'Lobster', cursive; font-size: 46px; 
+    font-weight: bolder; text-align: center;
 }
 
 h2{
@@ -93,7 +89,7 @@ position:absolute;
 
 .grid {
     background: rgb(37, 28, 28);
-    margin-left: 3%;
+    margin-left: 5%;
     margin-right: 3%;
     max-width: 90%;
     margin-top: 2%;
@@ -264,4 +260,12 @@ display: block;
   }
 
 
-  
+  .back{
+    background-color: white
+  }
+
+  .title{
+    color: #ffffff; font-family: 'Lobster', cursive; font-size: 56px; 
+    font-weight: bolder; text-align: center; vertical-align: bottom
+
+  }
