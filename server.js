@@ -31,12 +31,16 @@ app.use(express.static("public"));
 
 // Routes
 // =============================================================
-require("./controllers-routes/api-routes.js")(app);
+require("./controllers/api-routes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
-db.sequelize.sync().then(function() {
+// db.sequelize.sync().then(function() {
+  
   app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
+    
+    console.log("App listening on: http://localhost:" + PORT);
+// });
+
+  
 });
