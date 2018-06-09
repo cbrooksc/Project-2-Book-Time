@@ -1,13 +1,13 @@
 /*style page for the home.html*/
 
 * { 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
 
-    background-image: url("../images/animatedBookcases.jpg");
-    background-attachment: fixed;
+  background-image: url("../images/animatedBookcases.jpg");
+  background-attachment: fixed;
 }
 
 
@@ -17,25 +17,43 @@ position: absolute;
 
 
 .title{
-    font-family: 'Cabin Sketch', cursive;
-    color: white;
-    line-height: 65px;
-    margin-left: 135px;
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
+  line-height: 65px;
+  margin-left: 135px;
 }
 
 h2{
+
+color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
+ font-weight: lighter; text-align: center
+
   color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
    font-weight: lighter; text-align: center
+
 }
 
 .footer {
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-  margin-top: 35px;
-  padding: 50px;
-  clear: both;
+text-align: center;
+width: 100%;
+position: fixed;
+bottom: 0px;
+margin-top: 35px;
+padding: 50px;
+clear: both;
+}
+
+
+h1.subHeader{
+  color: #ffffff; font-family: 'Serif', cursive; font-size: 30px; 
+  font-weight: bold; text-align: center; 
+
+  margin-bottom: 40px;
+  margin-top: -100px;
+}
+
+#navContainer{
+   max-height: 150px;
 }
 
   h1.subHeader{
@@ -46,21 +64,38 @@ h2{
     margin-top: -100px;
  }
 
-  #navContainer{
-     max-height: 150px;
-  }
+
 
 
 
 /*carousel related*/
 
 .carousel-inner{
+background: rgb(37, 28, 28);
+  max-width: 150%;
+
+/*carousel related*/
+
+.carousel-inner{
   background: rgb(37, 28, 28);
     max-width: 150%;
+
 }
 
 
 .carousel-caption {
+
+  position: relative;
+  
+}
+
+.carousel-inner > .item > img{
+text-align: center;
+border: black solid 5px;
+
+
+}
+
     position: relative;
     
 }
@@ -72,11 +107,14 @@ h2{
 
   }
 
+
 * { 
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .item{
+
+margin: 10%;
   margin: 10%;
  
 }
@@ -87,16 +125,49 @@ h2{
 /*form related*/
 
 .form-group{
-  font-family: 'Indie Flower', cursive;
-  position:absolute;
+font-family: 'Indie Flower', cursive;
+position:absolute;
+}
+
+.control-label{
+  color: white;
+}
+
+.checkbox{
+  color: white;
+}
+
+
+
+.headerMain{
+  color: #ffffff; font-family: 'Lobster', cursive; font-size: 56px; 
+  font-weight: bolder; text-align: center; vertical-align: bottom
+
+}
+
+h3.subTitle{
+  font-size: 18px;
+  font-family:  Helvetica;
+  color: white;
+  vertical-align: bottom;
+  vertical-align: text-bottom;
+
+    }
+
+    .subtitle1 {
+      position: relative;
+      top: 30px;
+      right: 90px;
   }
-  
-  .control-label{
-    color: white;
+  .img{
+    text-align: center;
+    margin-top: 20px;
   }
-  
-  .checkbox{
-    color: white;
+
+
+  .icon{
+    background-color: #ffffff;
+    margin-top: 20px;
   }
 
   
@@ -130,3 +201,4 @@ h2{
       background-color: #ffffff;
       margin-top: 20px;
     }
+
