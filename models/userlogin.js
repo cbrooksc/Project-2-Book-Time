@@ -9,10 +9,7 @@ module.exports = function(sequelize, DataTypes) {
           allownulls: false,
 
       },
-      SIGNED_IN: {
-        type: DataTypes.Boolean,
-        allownulls: false,
-      }
+      
     });
 
   
