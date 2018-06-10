@@ -25,12 +25,22 @@ position: absolute;
 
 h2{
 <<<<<<< HEAD
+<<<<<<< HEAD
 color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
  font-weight: lighter; text-align: center
 =======
   color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
    font-weight: lighter; text-align: center
 >>>>>>> 9f663a320edbbd11b2da1d47547549407a79f9b1
+=======
+
+color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
+ font-weight: lighter; text-align: center
+
+  color: #ffffff; font-family: 'Lobster', cursive; font-size: 24px; 
+   font-weight: lighter; text-align: center
+
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
 }
 
 .footer {
@@ -44,6 +54,10 @@ clear: both;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
 h1.subHeader{
   color: #ffffff; font-family: 'Serif', cursive; font-size: 30px; 
   font-weight: bold; text-align: center; 
@@ -55,10 +69,21 @@ h1.subHeader{
 #navContainer{
    max-height: 150px;
 }
+<<<<<<< HEAD
 =======
   h1.subHeader{
     color: #ffffff; font-family: 'Serif', cursive; font-size: 30px; 
     font-weight: bold; text-align: center; 
+=======
+
+  h1.subHeader{
+    color: #ffffff; font-family: 'Serif', cursive; font-size: 30px; 
+    font-weight: bold; text-align: center; 
+
+    margin-bottom: 40px;
+    margin-top: -100px;
+ }
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
 
     margin-bottom: 40px;
     margin-top: -100px;
@@ -67,6 +92,7 @@ h1.subHeader{
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /*carousel related*/
 
@@ -82,8 +108,22 @@ background: rgb(37, 28, 28);
     max-width: 150%;
 >>>>>>> 9f663a320edbbd11b2da1d47547549407a79f9b1
 }
+=======
 
+/*carousel related*/
 
+.carousel-inner{
+background: rgb(37, 28, 28);
+  max-width: 150%;
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
+
+/*carousel related*/
+
+.carousel-inner{
+  background: rgb(37, 28, 28);
+    max-width: 150%;
+
+<<<<<<< HEAD
 .carousel-caption {
 <<<<<<< HEAD
   position: relative;
@@ -93,10 +133,35 @@ background: rgb(37, 28, 28);
 .carousel-inner > .item > img{
 text-align: center;
 border: black solid 5px;
+=======
+}
 
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
 
+.carousel-caption {
+
+<<<<<<< HEAD
 }
 =======
+    position: relative;
+    
+=======
+  position: relative;
+  
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
+}
+
+.carousel-inner > .item > img{
+ text-align: center;
+  border: black solid 5px;
+
+
+<<<<<<< HEAD
+  }
+>>>>>>> 9f663a320edbbd11b2da1d47547549407a79f9b1
+=======
+}
+
     position: relative;
     
 }
@@ -107,7 +172,8 @@ border: black solid 5px;
 
 
   }
->>>>>>> 9f663a320edbbd11b2da1d47547549407a79f9b1
+
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
 
 * { 
 box-sizing: border-box;
@@ -115,12 +181,19 @@ box-sizing: border-box;
 
 .item{
 <<<<<<< HEAD
+<<<<<<< HEAD
 margin: 10%;
 
 =======
   margin: 10%;
  
 >>>>>>> 9f663a320edbbd11b2da1d47547549407a79f9b1
+=======
+
+margin: 10%;
+  margin: 10%;
+ 
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
 }
 
 
@@ -169,11 +242,19 @@ h3.subTitle{
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
   .icon{
     background-color: #ffffff;
     margin-top: 20px;
   }
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
   
 
   .headerMain{
@@ -205,4 +286,8 @@ h3.subTitle{
       background-color: #ffffff;
       margin-top: 20px;
     }
+<<<<<<< HEAD
 >>>>>>> 9f663a320edbbd11b2da1d47547549407a79f9b1
+=======
+
+>>>>>>> 78a76852a953c995505a35106306b6a233bb4a37
