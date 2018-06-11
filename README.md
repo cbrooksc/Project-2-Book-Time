@@ -11,15 +11,20 @@ frontend_ccardona
 5. updated fonts, login.html page, css page, 
 
 
-Backend Craig Sequelize, Node, Mysql
+Backend Craig Sequelize, Node, Mysql,routes
 
 1.created the routes for the html pages
 2.github administraton
+3.build sequelize routes and modules for the library
+4. seed mysql database and build mysql scheme
 
 Frontend Don
 1. frontend page 
 2.libarary page
 3.book data
+4.masonary.js
+5.html5
+6.css3
 
 Backend Claudia
 
