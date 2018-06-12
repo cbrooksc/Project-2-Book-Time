@@ -18,7 +18,7 @@ Backend Craig Sequelize, Node, Mysql,routes
 3.build sequelize routes and modules for the library
 4. seed mysql database and build mysql scheme
 
-The function of mysql db in our app is to store the book library data while providing a system where I can create, insert, delete, and update my sequelize routes for the application. Sequelize is used to querying the DB based on the model used in node.js. The CRUD routes were create but we were unable to use them becuase their was not middleware Javascript/JQuery.
+The function of mysql db in our app will be storing the book library data while providing a system where we can create, insert, delete, and update my sequelize routes for the application. Sequelize is used to querying the DB based on the model used in node.js. The CRUD routes were create but we were unable to use them becuase their was not middleware Javascript/JQuery.
 
 Frontend Don
 1. frontend page 
