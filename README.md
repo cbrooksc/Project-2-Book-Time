@@ -18,6 +18,8 @@ Backend Craig Sequelize, Node, Mysql,routes
 3.build sequelize routes and modules for the library
 4. seed mysql database and build mysql scheme
 
+The function of mysql db in our app is to store the book library data while providing a system where I can create, insert, delete, and update my sequelize routes for the application. Sequelize is used to querying the DB based on the model used in node.js
+
 Frontend Don
 1. frontend page 
 2.libarary page
@@ -25,6 +27,19 @@ Frontend Don
 4.masonary.js
 5.html5
 6.css3
+Project 2 - bookTime
+
+Don Tillery:
+
+My primary function was front end development. I put together the library.html first. The new technology that was used was masonry.js. This technology gave the page an offset grid type of look.
+
+I also created the homepage. I used bootstrap for the majority of the page. I also used the carousel functionality of bootstrap which I may be considered a new technology.
+
+With both of those pages, I created a majority of the .css styling with the help of Carina.
+
+I created the .csv file and then, with Craig, got the data imported into the SQL database.
+
+On the last night, because of complications and time restrictions, I attempted a portion of the middleware unsuccessfully.
 
 Backend Claudia
 
