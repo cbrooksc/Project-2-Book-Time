@@ -1,12 +1,5 @@
 <!--
      the page that will allow the user to access downloadable books chosen
-
-what needs to be done:
-  -newAccount re-aligned to center
-  -newaccount info stored in database
-  -newAccount button sends user to library.html
-  -.footer icon imgs need changing
-
 -->
 <!DOCTYPE html>
 <html>
@@ -60,45 +53,58 @@ what needs to be done:
       </div>
     </div>
 
-    <!-- ******************************************create new account************************************** -->
+    
+<!-- ******************************************create new account************************************** -->
 
-    <div class="container">
-      <div class="row">
-        <div class="newAccount">
-          <form class="form-horizontal" role="form">
-            <h2 style="font-size:300%;">Create new account here!</h2>
-            <div class="form-group">
-              <div class="col-sm-11">
-                <br>
-                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-              </div>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class="newAccount">
+      <form action="/register" method="post" class="form-horizontal" role="form">
+        <h2 style="font-size:300%;">Start Here!</h2>
+        <div class="form-group">
+          <div class="col-sm-11">
             <br>
-            <br>
-            <div class="form-group">
-              <div class="col-sm-11">
-                <br>
-                <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
-              </div>
-            </div>
-            <br>
-            <br>
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <br>
-                <a href="library.html#library" button type="button" class="btn btn-default" id="signupButton">Sign Up!</button>
-                </a>
-                <br>
-              </div>
-            </div>
-          </form>
+            <input type="email" class="form-control" id="inputEmail1" name = 'eMail'placeholder="Email">
+          </div>
         </div>
-      </div>
-      </div>
+        <br>
+        <br>
+        <div class="form-group">
+          <div class="col-sm-11">
+            <br>
+            <input type="password" class="form-control" id="inputPassword1" name = 'passWord' placeholder="Password">
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+       <br>
+            <br>
+            <a href="library.html#library" style="display:inline;"button type="button" class="btn btn-default" id="signupButton">Sign In!</button>
+              </a>
+            <br>
+            <br>
+            <a href="home.html#home" style="display:inline;" button type="button" class="btn btn-default" id="signinButton">Register Here!</button>
+            </a>
+            <br>
+            <br>
+            <a href="home.html#home" style="display:inline;" button type="button" class="btn btn-default" id="signinButton">Remove</button>
+            </a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
 
 
-   
-     
+<!--******************************************************img****************************************************************-->
+
+
+
+
+
 
       <!--***********************************************footer icons*************************************************-->
 
@@ -131,6 +137,8 @@ what needs to be done:
 
   </section>
 
+  <script type="text/javascript" src="../controllers/index.js"></script>
+  
 </body>
 
 </html>

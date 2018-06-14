@@ -43,13 +43,14 @@ h2{
 }
 
 
+
+
+
 /*form related*/
 
 .form-group{
 font-family: 'Indie Flower', cursive;
 position:absolute;
-float:center;
-
 }
 
 .control-label{
@@ -65,7 +66,3 @@ float:center;
 float: left;  
   }
   
-  .currentAccount{
-    float: right;
-
-       }
